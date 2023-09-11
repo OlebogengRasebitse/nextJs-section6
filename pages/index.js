@@ -12,4 +12,12 @@ function Homepage() {
     </div>
   )
 }
+
+export async function getFeaturedEvents () {
+  return {
+    props: {
+      featuredEvents : 
+    }
+  }
+}
 export default Homepage
